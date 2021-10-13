@@ -19,9 +19,13 @@ nav {
 
 nav {
     font-weight: bold;
+}
+
+#container-fixed {
     position: fixed;
     top: 0;
     left: 0;
+    right: 0;
     z-index: 2;
 }
 
@@ -86,4 +90,45 @@ nav {
 }
 /* /nav */
 
+
+/* jumbotron */
+.jumbotron-bg {
+    margin-top: 126px;
+    height: 675px;
+    position: relative;
+}
+
+.jumbotron-bg #jumbo-img {
+    height: 675px;
+    max-width: 100%;
+    object-fit: cover;
+}
+
+.text-jumbotron {
+    color: white;
+    height: 100%;
+    max-width: 35%;
+    position: absolute;
+    bottom: 100px;
+    left: 40px;
+    line-height: 30px;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: flex-end;
+}
+
+.text-jumbotron img {
+    width: 180px;
+}
+
+.text-jumbotron h3 {
+    font-weight: bold;
+}
+
+.orange {
+    background-color: orangered;
+    width: 121px;
+    font-size: 14px;
+}
+/* /jumbotron */
 /* /header */
