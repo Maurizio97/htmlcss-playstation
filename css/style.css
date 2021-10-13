@@ -139,3 +139,16 @@ nav {
 }
 /* /jumbotron */
 /* /header */
+
+
+/* footer */
+footer {
+    background-color: #00439c;
+}
+
+.col {
+    background-color: blueviolet;
+    border: solid 1px black;
+    height: 200px;
+}
+/* /footer */
