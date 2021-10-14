@@ -91,7 +91,7 @@ nav {
 /* /nav */
 
 
-/* jumbotron */
+/* jumbotron */  /* jumbotron sezione 3 */
 .jumbotron-bg {
     margin-top: 126px;
     height: 675px;
@@ -107,7 +107,7 @@ nav {
 .text-jumbotron {
     color: white;
     height: 100%;
-    max-width: 35%;
+    max-width: 30%;
     position: absolute;
     bottom: 100px;
     left: 40px;
@@ -122,7 +122,7 @@ nav {
 
 .text-jumbotron h3 {
     font-weight: bold;
-    margin: 25px 0;
+    margin: 30px 0;
 }
 
 .orange {
@@ -132,15 +132,70 @@ nav {
 }
 
 
-@media all and (max-width: 767px) {
+.item-list-jumbo-img img {
+    width: 100%;
+    border-radius: 15px;
+}
+
+.border-item-jumbo {
+    padding: 3px;
+    border: solid 2px #0070d1;
+    border-radius: 15px;
+}
+
+@media all and (max-width: 991px) {
+
+    .text-jumbotron img {
+        width: 400px;
+    }
+
     .text-jumbotron {
         max-width: 90%;
     }
 }
-/* /jumbotron */
+
+
+
+@media all and (max-width: 767px) {
+
+    .text-jumbotron {
+        max-width: 90%;
+    }
+
+    .text-jumbotron img {
+        width: 300px;
+    }
+}
+
+
+
+/* /jumbotron */  /* jumbotron sezione 3 */
 /* /header */
 
 
+/* jumbotron sezione 3 */
+
+/* nuove uscite */
+#nuove-uscite {
+    background-color: #1f1f1f;
+}
+
+#nuove-uscite h2,
+#nuove-uscite h3 {
+    color: white;
+}
+
+#nuove-uscite h3 {
+    font-size: 18px;
+}
+
+#nuove-uscite h2 {
+    font-size: 25px;
+}
+
+.text-items-jumbo {
+    margin: 14px 0 0;
+}
 /* footer */
 footer {
     background-color: #00439c;
@@ -172,5 +227,4 @@ footer .col a {
 footer .col:nth-child(2) a {
     text-decoration: none;
 }
-
 /* /footer */
