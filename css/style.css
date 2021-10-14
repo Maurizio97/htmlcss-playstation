@@ -144,11 +144,33 @@ nav {
 /* footer */
 footer {
     background-color: #00439c;
+    padding-top: 60px;
 }
 
 .col {
-    background-color: blueviolet;
-    border: solid 1px black;
-    height: 200px;
+    color: white;
+    padding-bottom: 30px;
 }
+
+#ps-footer {
+    width: 70px;
+    margin-bottom: 30px;
+}
+
+#logo-footer {
+    width: 110px;
+}
+
+footer .col p {
+    padding: 0 0 30px;
+}
+
+footer .col a {
+    color: white;
+}
+
+footer .col:nth-child(2) a {
+    text-decoration: none;
+}
+
 /* /footer */
