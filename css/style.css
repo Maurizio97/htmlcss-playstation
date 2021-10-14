@@ -196,6 +196,52 @@ nav {
 .text-items-jumbo {
     margin: 14px 0 0;
 }
+/* jumbotron sezione 3 */
+
+/* sezione 5 copertina playstation plus */
+#ps-plus {
+    background-color: #bebcbb;
+}
+
+.cst-col-banner-ps {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+.banner-playstation .col {
+    padding: 0;
+}
+
+.banner-playstation .col img {
+    max-width: 100%;
+}
+
+.copertina-banner {
+    height: 100%;
+}
+
+.logo-banner {
+    width: 63%;
+}
+
+.text-banner {
+    margin: 20px 0;
+}
+
+.cst-btn-white {
+    font-size: 14px;
+    margin-left: 0px;
+    background-color: #d9dadc;
+    color: black;
+}
+
+.btn:hover {
+    color: #0070d1;
+}
+
+/* /sezione 5 copertina playstation plus */
+
 /* footer */
 footer {
     background-color: #00439c;
