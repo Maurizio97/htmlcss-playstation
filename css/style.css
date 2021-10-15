@@ -264,7 +264,33 @@ nav {
 /* /sezione 7 banner ps now */
 
 
+/* sezione 8 social */
+#social {
+    padding-bottom: 60px;
+}
 
+#social h2 {
+    text-align: center;
+    margin: 60px 0;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+#social img {
+    max-width: 100%;
+}
+
+/* .cst-col-social {
+    display: flex;
+    justify-content: center;
+} */
+
+#social a {
+   text-decoration: none;
+}
+
+
+/* /sezione 8 social */
 /* footer */
 footer {
     background-color: #00439c;
