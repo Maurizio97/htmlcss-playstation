@@ -198,7 +198,9 @@ nav {
 }
 /* jumbotron sezione 3 */
 
-/* sezione 5 copertina playstation plus */
+
+
+/* sezione 5 copertina playstation plus e ps now centralizzazione */
 #ps-plus {
     background-color: #bebcbb;
 }
@@ -209,6 +211,7 @@ nav {
     justify-content: center;
     align-items: flex-start;
 }
+
 .banner-playstation .col {
     padding: 0;
 }
@@ -240,7 +243,27 @@ nav {
     color: #0070d1;
 }
 
+@media all and (max-width:768px) {
+    .cst-col-display {
+        /* display: block; */
+        display: none;
+    }
+     .banner-playstation .cst-col-banner-ps {
+         padding: 40px 0;
+     }
+}
+
 /* /sezione 5 copertina playstation plus */
+
+
+
+/* sezione 7 banner ps now */
+#ps-now {
+    background-color: #161c3b;
+}
+/* /sezione 7 banner ps now */
+
+
 
 /* footer */
 footer {
