@@ -198,7 +198,37 @@ nav {
 }
 /* jumbotron sezione 3 */
 
+/* sezione 4 nuovi sconti */
+#nuovi-sconti {
+    margin: 60px 0;
+}
 
+.title-sections,
+#nuovi-sconti .text-sections {
+    text-align: center;
+}
+
+.title-sections {
+    font-size: 35px;
+    font-weight: bold;
+}
+
+#nuovi-sconti .text-sections {
+    display: block;
+}
+
+.text-sections {
+    color: grey;
+    font-size: 20px;
+}
+
+
+
+.cst-col-sconti img {
+    width: 100%;
+}
+
+/* /sezione 4 nuovi sconti */
 
 /* sezione 5 copertina playstation plus e ps now centralizzazione */
 #ps-plus {
@@ -279,11 +309,6 @@ nav {
 #social img {
     max-width: 100%;
 }
-
-/* .cst-col-social {
-    display: flex;
-    justify-content: center;
-} */
 
 #social a {
    text-decoration: none;
