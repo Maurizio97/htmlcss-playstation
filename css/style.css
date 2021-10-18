@@ -26,10 +26,11 @@ nav {
     color: grey;
     font-size: 20px;
 }
+
+
 /* header */
 
 /* nav */
-
 nav {
     font-weight: bold;
 }
@@ -104,7 +105,7 @@ nav {
 /* /nav */
 
 
-/* jumbotron */  /* jumbotron sezione 2 */
+/* jumbotron */                 /* jumbotron sezione 2 */
 .jumbotron-bg {
     margin-top: 126px;
     height: 675px;
@@ -144,7 +145,6 @@ nav {
     font-size: 14px;
 }
 
-
 .item-list-jumbo-img img {
     width: 100%;
     border-radius: 15px;
@@ -156,6 +156,7 @@ nav {
     border-radius: 15px;
 }
 
+/* versione lg */
 @media all and (max-width: 991px) {
 
     .text-jumbotron img {
@@ -167,8 +168,7 @@ nav {
     }
 }
 
-
-
+/* versione da xs a md */
 @media all and (max-width: 767px) {
 
     .text-jumbotron {
@@ -179,11 +179,9 @@ nav {
         width: 300px;
     }
 }
-
-
-
-/* /jumbotron */  /* jumbotron sezione 2 */
+/* /jumbotron */            /* jumbotron sezione 2 */
 /* /header */
+
 
 /* sezione 1:  presentazione ps5 */
 #container-title-section-1 .text-sections, 
@@ -196,7 +194,6 @@ nav {
     color: #0070d1;
 }
 
-.cst-col-section-1 .title-sections,
 .cst-col-section-1 .text-sections,
 .cst-col-section-1 .title-sections {
     text-align: left;
@@ -215,11 +212,11 @@ nav {
     border-bottom: solid 2px #0070d1;
 }
 
-#presentazione-ps5 .col h5{
+#presentazione-ps5 .col h5 {
     color: black;
 }
 
-#presentazione-ps5 .col .img-prodotti-ps5{
+#presentazione-ps5 .col .img-prodotti-ps5 {
     max-width: 70%;
 }
 
@@ -249,11 +246,10 @@ nav {
      padding-bottom: 20px;
     }
 }
-
 /* /sezione 1:  presentazione ps5 */
 
-/* jumbotron sezione 2 */
 
+/* jumbotron sezione 2 */
 /* nuove uscite */
 #nuove-uscite {
     background-color: #1f1f1f;
@@ -280,7 +276,7 @@ nav {
 /* sezione 3: esplora ps4 */
 #esplora-ps4 .text-sections {
     text-align: center;
-    display:block;
+    display: block;
 }
 
 #esplora-ps4 .col .text-sections,
@@ -296,8 +292,8 @@ nav {
 #esplora-ps4 img {
     width: 100%;
 }
-
 /* /sezione 3: esplora ps4 */
+
 
 /* sezione 4 nuovi sconti */
 #nuovi-sconti {
@@ -401,9 +397,9 @@ nav {
 #social a {
    text-decoration: none;
 }
-
-
 /* /sezione 8 social */
+
+
 /* footer */
 footer {
     background-color: #00439c;
