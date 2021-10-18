@@ -1,4 +1,4 @@
-
+/* regole centralizzate */
 * {
     margin: 0;
     padding: 0;
@@ -13,6 +13,19 @@ nav {
     font-family: Helvetica, sans-serif;
 }
 
+.title-sections {
+    text-align: center;
+}
+
+.title-sections {
+    font-size: 42px;
+    font-weight: bold;
+}
+
+.text-sections {
+    color: grey;
+    font-size: 20px;
+}
 /* header */
 
 /* nav */
@@ -91,7 +104,7 @@ nav {
 /* /nav */
 
 
-/* jumbotron */  /* jumbotron sezione 3 */
+/* jumbotron */  /* jumbotron sezione 2 */
 .jumbotron-bg {
     margin-top: 126px;
     height: 675px;
@@ -169,11 +182,77 @@ nav {
 
 
 
-/* /jumbotron */  /* jumbotron sezione 3 */
+/* /jumbotron */  /* jumbotron sezione 2 */
 /* /header */
 
+/* sezione 1:  presentazione ps5 */
+#container-title-section-1 .text-sections, 
+#container-title-section-1 h6 {
+    text-align: center;
+    display:block;
+}
 
-/* jumbotron sezione 3 */
+#presentazione-ps5 h6 {
+    color: #0070d1;
+}
+
+.cst-col-section-1 .title-sections,
+.cst-col-section-1 .text-sections,
+.cst-col-section-1 .title-sections {
+    text-align: left;
+    display: block;
+}
+
+#presentazione-ps5 img {
+    max-width: 100%;
+}
+
+.cst-col-section-1 .title-sections {
+    color: black;
+}
+
+.cst-border {
+    border-bottom: solid 2px #0070d1;
+}
+
+#presentazione-ps5 .col h5{
+    color: black;
+}
+
+#presentazione-ps5 .col .img-prodotti-ps5{
+    max-width: 70%;
+}
+
+.cst-opacity-50 {
+    opacity: 50%;
+}
+
+.cst-col-hover-ps5:hover {
+    opacity: 100%;
+    transition-duration: .8s;
+    transition-timing-function: linear;
+}
+
+.cst-col-hover-ps5 {
+    transition-duration: 1s;
+    transition-timing-function: linear;
+}
+
+
+/* versione  fino a sm */
+@media all and (max-width:576px) {
+    #presentazione-ps5 .col h5{
+        display: none;
+    }
+
+    #presentazione-ps5 .col .img-prodotti-ps5{
+     padding-bottom: 20px;
+    }
+}
+
+/* /sezione 1:  presentazione ps5 */
+
+/* jumbotron sezione 2 */
 
 /* nuove uscite */
 #nuove-uscite {
@@ -196,39 +275,48 @@ nav {
 .text-items-jumbo {
     margin: 14px 0 0;
 }
-/* jumbotron sezione 3 */
+/* jumbotron sezione 2 */
+
+/* sezione 3: esplora ps4 */
+#esplora-ps4 .text-sections {
+    text-align: center;
+    display:block;
+}
+
+#esplora-ps4 .col .text-sections,
+#esplora-ps4 .col .title-sections {
+    text-align: start;
+}
+
+#esplora-ps4 .col .title-sections {
+    color: black;
+}
+
+
+#esplora-ps4 img {
+    width: 100%;
+}
+
+/* /sezione 3: esplora ps4 */
 
 /* sezione 4 nuovi sconti */
 #nuovi-sconti {
     margin: 60px 0;
 }
 
-.title-sections,
-#nuovi-sconti .text-sections {
-    text-align: center;
-}
-
-.title-sections {
-    font-size: 35px;
-    font-weight: bold;
-}
-
 #nuovi-sconti .text-sections {
     display: block;
 }
 
-.text-sections {
-    color: grey;
-    font-size: 20px;
+#nuovi-sconti .text-sections {
+    text-align: center;
 }
-
-
 
 .cst-col-sconti img {
     width: 100%;
 }
-
 /* /sezione 4 nuovi sconti */
+
 
 /* sezione 5 copertina playstation plus e ps now centralizzazione */
 #ps-plus {
